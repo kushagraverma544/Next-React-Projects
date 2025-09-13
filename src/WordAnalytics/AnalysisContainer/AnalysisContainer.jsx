@@ -1,7 +1,13 @@
-import React from "react";
+import InputAreaContainer from "../InputArea/InputAreaContainer";
+import StatisticsContainer from "../Statistics/StatisticsContainer";
 
 const AnalysisContainer = () => {
-  return <main>This is the Analytics Container</main>;
+  return (
+    <main className="container">
+      <InputAreaContainer />
+      <StatisticsContainer />
+    </main>
+  );
 };
 
 export default AnalysisContainer;

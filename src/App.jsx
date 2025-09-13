@@ -1,8 +1,8 @@
-import React from "react";
-import FancyCounterContainer from "./FancyCounter/FancyCounterContainer/FancyCounterContainer";
+// import FancyCounterContainer from "./FancyCounter/FancyCounterContainer/FancyCounterContainer";
+import WordAnalyticsContainer from "./WordAnalytics/WordAnalyticsContainer";
 
 const App = () => {
-  return <FancyCounterContainer></FancyCounterContainer>;
+  return <WordAnalyticsContainer></WordAnalyticsContainer>;
 };
 
 export default App;
