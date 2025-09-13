@@ -1,0 +1,9 @@
+.fancy-counter-container {
+  background-image: radial-gradient(ellipse, #385300, #212900);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+}

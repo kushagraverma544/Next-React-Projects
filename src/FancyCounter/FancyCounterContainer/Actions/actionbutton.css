@@ -1,0 +1,36 @@
+.action-btn-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 332px; /* optional: limit container width */
+}
+
+.increment-btn {
+  flex: 1; /* Equal width division */
+  height: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #1a1a00; /* Dark background like your design */
+  color: #c7ff00; /* Lime green text */
+  border: none;
+  border-radius: 5px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  font-size: 2rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.increment-btn:hover {
+  background-color: #2d2d00;
+  /* transform: scale(1.05); */
+}
+
+.increment-btn i {
+  margin: 0; /* Remove any default spacing */
+}

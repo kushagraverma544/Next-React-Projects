@@ -1,0 +1,58 @@
+.card-container {
+  border: transparent;
+  border-radius: 12px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  padding: 16px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-color: #bef227;
+  width: 330px;
+  height: 350px;
+  font-family: Arial, sans-serif;
+}
+
+.card-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 8px;
+  color: #4c4b4b;
+}
+
+.card-message {
+  font-size: 6em;
+  text-align: center;
+  color: #000000;
+  font-weight: bold;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+.reset-btn {
+  background-color: transparent;
+  color: lightgray;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease, color 0.3s ease;
+}
+
+.reset-btn i {
+  font-size: 2rem; /* Bigger icon */
+  color: lightgray;
+  transition: transform 0.2s ease, color 0.3s ease;
+}
+
+.reset-btn:hover {
+  background: rgba(0, 0, 0, 0.6); /* transparent black */
+  color: white;
+}
+
+.reset-btn:hover i {
+  transform: scale(1.2);
+  color: white; /* icon also changes color on hover */
+}
